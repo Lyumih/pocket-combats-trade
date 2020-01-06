@@ -1,7 +1,7 @@
 import React from 'react';
 import { Switch, Route } from 'react-router-dom';
 import Calculator from './components/calculator';
-import Trade from './components/calculator';
+import Trade from './components/trade';
 import { AppBar, Toolbar, Typography, CssBaseline, Button } from '@material-ui/core';
 import { makeStyles } from '@material-ui/core/styles';
 
