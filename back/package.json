@@ -6,8 +6,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node app.js",
-    "build": "cp -rf ../front/build/* ./build/",
-    "q": "cp . ."
+    "build": "rm -rf ./build/* && cp -rf ../front/build/* ./build/",
+    "q": "rm -rf ./build/*"
   },
   "keywords": [],
   "author": "",
