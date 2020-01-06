@@ -1,0 +1,20 @@
+{
+  "name": "pocket-combats-trade",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Lyumih/pocket-combats-trade.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Lyumih/pocket-combats-trade/issues"
+  },
+  "homepage": "https://github.com/Lyumih/pocket-combats-trade#readme"
+}
