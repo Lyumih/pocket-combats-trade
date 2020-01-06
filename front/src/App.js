@@ -29,6 +29,7 @@ function App() {
       flexGrow: 1,
       padding: theme.spacing(3),
     },
+
     toolbar: theme.mixins.toolbar,
   }));
   const classes = useStyles();
@@ -39,19 +40,19 @@ function App() {
       <AppBar position="fixed" className={classes.appBar}>
         <Toolbar>
         <Link to="/">
-            <Button>
+            <Button variant="outlined">
               <Typography>Pocket Combats</Typography>
             </Button>
           </Link>
 
           <Link to="/calculator">
-            <Button>
+            <Button variant="outlined">
               <Typography>Калькулятор</Typography>
 
             </Button>
           </Link>
           <Link to="/trade">
-            <Button>
+            <Button variant="outlined">
               <Typography>Торговля</Typography>
             </Button>
           </Link>
