@@ -1,1 +1,1 @@
-web: cd back && npm start
+web: cd back && npm i && npm start
