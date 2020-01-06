@@ -40,19 +40,19 @@ function App() {
       <AppBar position="fixed" className={classes.appBar}>
         <Toolbar>
         <Link to="/">
-            <Button variant="outlined">
+            <Button>
               <Typography>Pocket Combats</Typography>
             </Button>
           </Link>
 
           <Link to="/calculator">
-            <Button variant="outlined">
+            <Button>
               <Typography>Калькулятор</Typography>
 
             </Button>
           </Link>
           <Link to="/trade">
-            <Button variant="outlined">
+            <Button>
               <Typography>Торговля</Typography>
             </Button>
           </Link>
